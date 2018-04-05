@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+/* 配色：#6e350f(#4b250a) : #92cef7 */
+
+html {
+    width: 100%;
+    min-width: 1200px;
+}
+
+body {
+	background: rgba(235,235,235, 1);
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: #92cef7;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: "Comfortaa";
+}
+
+.bordered {
+	box-shadow: 0 0.2em 0.4em 0 rgba(0,0,0,0.2);
+}
+
+
+nav {
+	box-sizing: border-box;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 20px 8px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #4b250a;
+	margin: 0 8px;
+	transition: all 0.15s ease-in-out;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.scroll-to-section:hover {
+	color: steelBlue;
+	text-decoration: none;
+}
+
+.cover.top {
+	padding: 20% 0 15% 0;
+	height: 300px;
+	width: 100%;
+	background-color: #92cef7;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: "Comfortaa";
+}
+
+.top > h1{
+	font-size: 60px;
+	padding: 0 0 20px 0;
+}
+
+.top > h1, h2 {
+	color: #6e350f;
+}
+
+.row {
+	padding: 6% 0 15% 0;
+	height: 900px;
+	width: 100%;
+}
+
+.first {
+	background-color: #6e350f;
+	color: #92cef7;
+}
+.second {
+	background-color: #92cef7;
+	color: #6e350f;
+}
+
+.row > h3, .bottom > h3 {
+	text-align: center;
+	font-size: 36px;
+	font-family: "Comfortaa";
+	padding: 0 5% 0;
+}
+
+.bargraph {
+    margin: 0 15%; 
+    list-style: none;
+    float: none;
+    width: 70%;
+}
+
+ul.bargraph > li {
+    background: #92cef7;
+    border-radius: 0 10px 10px 0;
+    height: 35px;
+    color: #6e350f;
+    text-align: left;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+}
+ul.bargraph > h3 {
+    font-size: 30px;
+    padding: 50px 0 10px;
+}
+
+ul.bargraph > li.eighty-seven {
+    width: 87%;}
+ul.bargraph > li.eighty {
+    width: 80%;}
+ul.bargraph > li.seventy {
+    width: 70%;}
+ul.bargraph > li.sixty {
+    width: 60%;}
+ul.bargraph > li.fifty {
+    width: 50%;}
+ul.bargraph > li.forty {
+    width: 40%;}
+ul.bargraph > li.thirty {
+    width: 30%;}
+
+.bottom {
+	padding: 5% 0 10% 0;
+	height: 40vh;
+	width: 100%;
+}
+
+.inlined {
+	display: inline;
+}
+
+.centered {
+	text-align: center;
+	float: none;
+}
+
+.contact-list {
+	list-style: none;
+}
+.contact-social-icons p {
+	color: #92cef7;
+}
+.contact-social-icons ul {
+	padding: 20px 0 0 0;
+}
+.contact-social-icons ul a {
+    color: #92cef7;
+    font-family: "Comfortaa";
+	list-style: none;
+}
+.contact-social-icons ul a:hover {
+    color: #f0f0e6; }
+.contact-social-icons ul a li {
+	display: inline-block;
+	padding: 2%;
+}
+
+.timeline {
+    padding: 50px 0 0 0;
+    list-style: none;
+}
+.timeline > li {
+    overflow: hidden;
+    margin: 0;
+}
+.timeline-content {
+    width: 33%;
+}
+.left {
+    margin: 0 3px 0 0;
+}
+.right {
+    margin: 0 0 0 3px;
+}
+.list-left {
+    margin-left: 50%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+}
+.list-right {
+    margin-right: 50%;
+    text-align: right;
+    float: right;
+    border-right: 3px #e5e5d1 solid;
+    padding-right: 30px;
+}
+.dumm-bottom {
+    height: 50px;
+}
+.timeline-content:hover {
+    border-color: gray;
+}
